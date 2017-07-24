@@ -604,6 +604,7 @@ span
 	#aboutme
 	{
 		width:80%;
+		transform: translateX(5%);
 	}
 
 	#face
@@ -614,12 +615,19 @@ span
 	#connect
 	{
 		width:80%;
+		transform: translateX(5%);
 	}
 
 	/*Portfolio CSS*/
+	#portfolio
+	{
+		width:80%;
+		transform: translateX(5%);
+	}
+
 	.portpic
 	{
-		width:520px;
+		width:90%;
 		height:300px;
 	}
 
@@ -629,11 +637,50 @@ span
 		background-color: #4aaaa5;
 		color:#ffffff;
 		text-align: center;
-		width:500px;
+		width:90%;
 		font-size:20px;
 		padding:10px;
 		font-family: 'Georgia', Times, 'Times New Roman', serif;
 		bottom:20px;
+	}
+
+	/*Contact Me CSS*/
+	.contactme
+	{
+		margin-top: 20px;
+		background-color: #ffffff;
+		border:1px solid #dddddd;
+		width:80%;
+		padding:20px;
+		float: left;
+		transform: translateX(5%);
+	}
+
+	.inputs
+	{
+		margin-top:20px;
+		margin-bottom: 10px;
+	}  
+
+	input
+	{
+		width:100%;
+	}
+
+	textarea
+	{
+		width:100%;
+	}
+
+	.submit
+	{
+		background-color: #4aaaa5;
+		width:100px;
+		text-align: center;
+		padding: 20px 0px 20px 0px;
+		font-weight: bold;
+		color: #ffffff;
+		margin-top: 20px;
 	}
 
 
