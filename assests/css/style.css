@@ -206,6 +206,16 @@ footer
 	margin-bottom: 10px;
 }
 
+input
+{
+	width:568px;
+}
+
+textarea
+{
+	width:568px;
+}
+
 .submit
 {
 	background-color: #4aaaa5;
@@ -353,6 +363,44 @@ span
 		margin-bottom: 20px;
 	}
 
+	/*Contact Me CSS*/
+	.contactme
+	{
+		margin-top: 20px;
+		background-color: #ffffff;
+		border:1px solid #dddddd;
+		width:400px;
+		padding:20px;
+		float: left;
+	}
+
+	.inputs
+	{
+		margin-top:20px;
+		margin-bottom: 10px;
+	}  
+
+	input
+	{
+		width:400px;
+	}
+
+	textarea
+	{
+		width:400px;
+	}
+
+	.submit
+	{
+		background-color: #4aaaa5;
+		width:100px;
+		text-align: center;
+		padding: 20px 0px 20px 0px;
+		font-weight: bold;
+		color: #ffffff;
+		margin-top: 20px;
+	}
+
 }
 
 @media screen and (max-width: 768px)
@@ -454,6 +502,44 @@ span
 		padding:10px;
 		font-family: 'Georgia', Times, 'Times New Roman', serif;
 		bottom:20px;
+	}
+
+	/*Contact Me CSS*/
+	.contactme
+	{
+		margin-top: 20px;
+		background-color: #ffffff;
+		border:1px solid #dddddd;
+		width:558px;
+		padding:20px;
+		float: left;
+	}
+
+	.inputs
+	{
+		margin-top:20px;
+		margin-bottom: 10px;
+	}  
+
+	input
+	{
+		width:558px;
+	}
+
+	textarea
+	{
+		width:558px;
+	}
+
+	.submit
+	{
+		background-color: #4aaaa5;
+		width:100px;
+		text-align: center;
+		padding: 20px 0px 20px 0px;
+		font-weight: bold;
+		color: #ffffff;
+		margin-top: 20px;
 	}
 
 }
