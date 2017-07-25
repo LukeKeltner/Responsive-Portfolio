@@ -548,7 +548,10 @@ span
 {
 	.content
 	{
+		clear:both;
+		position:relative;
 		width:100%;
+		margin:0 auto;
 	}
 
 	.contentheader
@@ -603,8 +606,8 @@ span
 
 	#aboutme
 	{
-		width:80%;
-		transform: translateX(5%);
+		width:90%;
+
 	}
 
 	#face
@@ -614,21 +617,18 @@ span
 
 	#connect
 	{
-		width:80%;
-		transform: translateX(5%);
+		width:90%
 	}
 
 	/*Portfolio CSS*/
 	#portfolio
 	{
-		width:80%;
-		transform: translateX(5%);
+		width:90%;
 	}
 
 	.portpic
 	{
-		width:90%;
-		height:300px;
+		max-width:100%;
 	}
 
 	.picdeets
@@ -637,7 +637,7 @@ span
 		background-color: #4aaaa5;
 		color:#ffffff;
 		text-align: center;
-		width:90%;
+		width:91.5%;
 		font-size:20px;
 		padding:10px;
 		font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -650,10 +650,8 @@ span
 		margin-top: 20px;
 		background-color: #ffffff;
 		border:1px solid #dddddd;
-		width:80%;
+		width:90%;
 		padding:20px;
-		float: left;
-		transform: translateX(5%);
 	}
 
 	.inputs
